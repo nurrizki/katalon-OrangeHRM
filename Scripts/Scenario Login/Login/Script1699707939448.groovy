@@ -37,9 +37,10 @@ String password = WebUI.getText(label_password)
 password = password.substring(password.indexOf(": ")+2, password.length())
 
 WebUI.setText(input_username, username)
-WebUI.delay(3)
-WebUI.takeScreenshot()
 WebUI.setText(input_password, password)
+WebUI.delay(3)
+WebUI.takeScreenshot(GlobalVariable.path_screenshot + GlobalVariable.screenshot_counter +'.png')
+GlobalVariable.screenshot_counter++
 
 WebUI.click(button_login)
 

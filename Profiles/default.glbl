@@ -14,4 +14,14 @@
       <initValue>'//input[@name=\'password\']'</initValue>
       <name>xpath_input_password</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Screenshot/Login/'</initValue>
+      <name>path_screenshot</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>0</initValue>
+      <name>screenshot_counter</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
